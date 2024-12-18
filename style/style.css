@@ -34,7 +34,6 @@ h2 {
 p {
     margin-left: 30px;
     margin-bottom: 100px;
-    text-align: left;
 }
 
 a {
@@ -71,10 +70,23 @@ div {
 }
 
 .adaptado {
-    background-color: rgba(0, 0, 0, 0.418);
+    background-color: rgba(0, 0, 0, 0.551);
     color: white;
     display: inline-block;
     padding: 10px;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+#segunda{
+    background-image: url(../img/background002.jpg);
+}
+
+footer>p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
 }
