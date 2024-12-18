@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
 body {
@@ -20,6 +18,14 @@ h1 {
     margin: 0px;
     padding-top: 40px;
     font-size: 10vw;
+
+    /*Todas as letras maiúsculas, porém, primeira letra de cada palavra MAIOR*/
+    font-variant: small-caps;
+
+    /*
+    (Tornar todas as letras maiúsculas)
+    text-transform: uppercase;
+    */
 }
 
 h2 {
@@ -33,7 +39,13 @@ h2 {
 
 p {
     margin-left: 30px;
-    margin-bottom: 100px;
+
+    /*Padding se adaptando a tamanho da tela*/
+    padding-bottom: 10vh;
+    padding-bottom: 10vh;
+
+    /*Aumentando espaçamento entre as linhas*/
+    line-height: 2em;
 }
 
 a {
@@ -56,6 +68,9 @@ div {
     width: 100%;
     height: 850px;
     margin-bottom: 50px;
+
+    /*Adicionando sombra interna*/
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.577);
 }
 
 .fotos {
@@ -76,6 +91,7 @@ div {
     padding: 10px;
     margin-top: 100px;
     margin-bottom: 100px;
+    text-shadow: 1px 1px 0px black;
 }
 
 #segunda{
