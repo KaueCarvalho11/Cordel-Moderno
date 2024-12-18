@@ -10,7 +10,7 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    
+
 }
 
 h1 {
@@ -94,11 +94,11 @@ div {
     text-shadow: 1px 1px 0px black;
 }
 
-#segunda{
+#segunda {
     background-image: url(../img/background002.jpg);
 }
 
-footer>p{
+footer>p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: black;
